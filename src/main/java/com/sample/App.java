@@ -5,6 +5,8 @@ import java.util.List;
 
 public class App {
     private boolean isAutoSyncScheduled = true;
+    private String userId = "kumar";
+    private String password = "Test123";
 
     public static void main(String[] args) throws SQLException {
         SQLInjectionSample c = new SQLInjectionSample();
